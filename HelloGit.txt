@@ -1,1 +1,42 @@
-Hello GitHub
+Пользователь@-PC MINGW64 /d
+$ mkdir GitRepoSec
+
+Пользователь@-PC MINGW64 /d
+$ cd GitRepoSec
+
+Пользователь@-PC MINGW64 /d/GitRepoSec
+$ git clone https://github.com/Athetrick/GitTest2.git test2
+Cloning into 'test2'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+Пользователь@-PC MINGW64 /d/GitRepoSec
+$ git remote -v
+fatal: not a git repository (or any of the parent directories): .git
+
+Пользователь@-PC MINGW64 /d/GitRepoSec
+$ cd test2
+
+Пользователь@-PC MINGW64 /d/GitRepoSec/test2 (main)
+$ git remote -v
+origin  https://github.com/Athetrick/GitTest2.git (fetch)
+origin  https://github.com/Athetrick/GitTest2.git (push)
+
+Пользователь@-PC MINGW64 /d/GitRepoSec/test2 (main)
+$ echo "Hello GitHub" > HelloGit.txt
+
+Пользователь@-PC MINGW64 /d/GitRepoSec/test2 (main)
+$ ls
+HelloGit.txt  README.md
+
+Пользователь@-PC MINGW64 /d/GitRepoSec/test2 (main)
+$ git add HelloGit.txt
+
+Пользователь@-PC MINGW64 /d/GitRepoSec/test2 (main)
+$ git commit -m "commit Hello Git"
+[main f9dcb76] commit Hello Git
+ 1 file changed, 1 insertion(+)
+ create mode 100644 HelloGit.txt
+
