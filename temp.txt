@@ -1,1 +1,11 @@
-tmp
+Пользователь@-PC MINGW64 /d/GitRepoSec/test2 (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 340 bytes | 340.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Athetrick/GitTest2.git
+   1373b37..31c6be6  main -> main
+
